@@ -20,3 +20,7 @@ dotnet sln ${KATA_NAME}.sln add $KATA_NAME/${KATA_NAME}.csproj
 dotnet sln ${KATA_NAME}.sln add ${KATA_TEST_NAME}/${KATA_TEST_NAME}.csproj
 
 echo -e "### Source\nTODO\n\n### Description\nTODO" >> README.md
+
+cd ..
+
+code $KATA_NAME
